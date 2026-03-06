@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountValidate</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(Accounttext__c))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Enter valid account number</errorMessage>
+</ValidationRule>
